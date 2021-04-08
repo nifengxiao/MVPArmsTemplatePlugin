@@ -1,40 +1,26 @@
-# mvparmsTemplePlugin
-
-![Build](https://github.com/nifengxiao/mvparmsTemplePlugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+# lianyiPlugins
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+mvparms专用插件,用于一键生成mvparms相关文件
 <!-- Plugin description end -->
 
-## Installation
+## 下载
+[MVPArmsPlugin](https://gitee.com/nullity/lianyiPlugins/raw/master/plugins/lianyiPlugins-1.0.0.jar)
 
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "mvparmsTemplePlugin"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
-- Manually:
+## 安装
+- 手动:
 
-  Download the [latest release](https://github.com/nifengxiao/mvparmsTemplePlugin/releases/latest) and install it manually using
+  下载完成后按照以下步骤进行安装
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
 ---
+## 使用
+![](https://images.gitee.com/uploads/images/2021/0407/173415_c4da6160_1422537.png "使用.png")
+
+## 注意
+- 创建activity的时候要到manifest里面手动创建一下，暂时没有找到解决方案，如有找到办法的朋友请提交Issues,非常感谢！
+
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
