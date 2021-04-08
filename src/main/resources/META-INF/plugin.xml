@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.nifengxiao.mvparmstempleplugin</id>
-    <name>mvparmsTemplePlugin</name>
+    <name>MVPArmsTemplePlugin</name>
     <vendor>nifengxiao</vendor>
 
     <depends>org.jetbrains.android</depends>

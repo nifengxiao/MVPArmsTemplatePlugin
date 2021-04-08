@@ -2,8 +2,8 @@ package mvparms
 
 import com.android.tools.idea.wizard.template.ModuleTemplateData
 import com.android.tools.idea.wizard.template.RecipeExecutor
+import mvparms.androidManifest.manifestTempleXml
 import mvparms.src.app_package.*
-//import com.android.tools.idea.wizard.template.impl.other.service.androidManifestXml
 import mvparms.res.layout.templeXml
 
 /**
@@ -38,23 +38,14 @@ fun RecipeExecutor.mvparmsRecipe(
 
     val ktOrJavaExt = projectData.language.extension
 
-
-    if (needActivity) {
-//        generateManifest(
-//                moduleData = moduleData,
-//                activityClass = "${pageName}Activity",
-//                activityTitle = pageName,
-//                packageName = packageName,
-//                isLauncher = false,
-//                hasNoActionBar = false,
-//                generateActivityTitle = false
-//        )
-
-//        save(manifestTempleXml(packageName,activityPackageName,"${pageName}Activity"), manifestOut.resolve("AndroidManifest.xml"))
-
+    if (needActivity && needFragment){
+        throw IllegalArgumentException("activity和fragment不可同时选择")
     }
 
 
+    if (needActivity) {
+        mergeXml(manifestTempleXml(packageName,activityPackageName,"${pageName}Activity"), manifestOut.resolve("AndroidManifest.xml"))
+    }
 
     if (needActivity && generateActivityLayout) {
         save(templeXml(), resOut.resolve("layout/${activityLayoutName}.xml"))

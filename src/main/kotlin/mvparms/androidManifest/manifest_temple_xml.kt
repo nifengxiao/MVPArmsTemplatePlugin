@@ -1,4 +1,4 @@
-package plugins.mvparms.androidManifest
+package mvparms.androidManifest
 
 fun manifestTempleXml(packageName:String,activityPackageName:String,activityClass:String) = """
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
