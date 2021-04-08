@@ -5,7 +5,7 @@ mvparms专用插件,用于一键生成mvparms相关文件
 <!-- Plugin description end -->
 
 ## 下载
-[MVPArmsPlugin](https://gitee.com/nullity/lianyiPlugins/raw/master/plugins/lianyiPlugins-1.0.0.jar)
+[MVPArmsPlugin](https://github.com/nifengxiao/MVPArmsTemplePlugin/raw/master/plugins/MVPArmsTemplePlugin-1.0.0.jar)
 
 ## 安装
 - 手动:
