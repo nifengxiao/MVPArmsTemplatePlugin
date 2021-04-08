@@ -1,7 +1,7 @@
 # MVPArmsTemplatePlugin
 ## 说明
 <!-- Plugin description -->
-mvparms专用插件,用于一键生成mvparms相关文件，由于as4.1之后删除了templates，所以单独写了一份。思路复刻[MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate)，除了文件路径放到Other中了，其余基本一致。
+MVPArms专用模板插件,用于一键生成mvparms相关文件，由于as4.1之后删除了templates，所以单独写了一份。思路复刻[MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate)，除了文件路径放到Other中了，其余基本一致。
 <!-- Plugin description end -->
 
 ## 下载
