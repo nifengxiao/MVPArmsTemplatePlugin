@@ -1,6 +1,6 @@
-package com.github.nifengxiao.mvparmstempleplugin.services
+package com.github.nifengxiao.mvparmstemplateplugin.services
 
-import com.github.nifengxiao.mvparmstempleplugin.MyBundle
+import com.github.nifengxiao.mvparmstemplateplugin.MyBundle
 
 class MyApplicationService {
 

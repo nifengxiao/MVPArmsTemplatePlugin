@@ -1,6 +1,6 @@
-package com.github.nifengxiao.mvparmstempleplugin.listeners
+package com.github.nifengxiao.mvparmstemplateplugin.listeners
 
-import com.github.nifengxiao.mvparmstempleplugin.services.MyProjectService
+import com.github.nifengxiao.mvparmstemplateplugin.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener

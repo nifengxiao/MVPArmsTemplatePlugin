@@ -1,4 +1,4 @@
-package com.github.nifengxiao.mvparmstempleplugin
+package com.github.nifengxiao.mvparmstemplateplugin
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

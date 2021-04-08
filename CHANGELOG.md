@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# mvparmsTemplePlugin Changelog
+# mvparmsTemplatePlugin Changelog
 
 ## [Unreleased]
 ### Added

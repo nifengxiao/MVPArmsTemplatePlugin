@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.nifengxiao.mvparmstempleplugin</id>
-    <name>MVPArmsTemplePlugin</name>
+    <id>com.github.nifengxiao.mvparmstemplateplugin</id>
+    <name>MVPArmsTemplatePlugin</name>
     <vendor>nifengxiao</vendor>
 
     <depends>org.jetbrains.android</depends>
@@ -10,13 +10,13 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService
-            serviceImplementation="com.github.nifengxiao.mvparmstempleplugin.services.MyApplicationService" />
+            serviceImplementation="com.github.nifengxiao.mvparmstemplateplugin.services.MyApplicationService" />
         <projectService
-            serviceImplementation="com.github.nifengxiao.mvparmstempleplugin.services.MyProjectService" />
+            serviceImplementation="com.github.nifengxiao.mvparmstemplateplugin.services.MyProjectService" />
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.nifengxiao.mvparmstempleplugin.listeners.MyProjectManagerListener"
+        <listener class="com.github.nifengxiao.mvparmstemplateplugin.listeners.MyProjectManagerListener"
             topic="com.intellij.openapi.project.ProjectManagerListener" />
     </applicationListeners>
 

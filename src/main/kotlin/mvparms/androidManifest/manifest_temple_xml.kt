@@ -1,6 +1,6 @@
 package mvparms.androidManifest
 
-fun manifestTempleXml(packageName:String,activityPackageName:String,activityClass:String) = """
+fun manifestTemplateXml(packageName:String,activityPackageName:String,activityClass:String) = """
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="${packageName}">
 

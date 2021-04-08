@@ -2,9 +2,9 @@ package mvparms
 
 import com.android.tools.idea.wizard.template.ModuleTemplateData
 import com.android.tools.idea.wizard.template.RecipeExecutor
-import mvparms.androidManifest.manifestTempleXml
+import mvparms.androidManifest.manifestTemplateXml
 import mvparms.src.app_package.*
-import mvparms.res.layout.templeXml
+import mvparms.res.layout.templateXml
 
 /**
  * @CreateDate:     2021/4/1
@@ -44,15 +44,15 @@ fun RecipeExecutor.mvparmsRecipe(
 
 
     if (needActivity) {
-        mergeXml(manifestTempleXml(packageName,activityPackageName,"${pageName}Activity"), manifestOut.resolve("AndroidManifest.xml"))
+        mergeXml(manifestTemplateXml(packageName,activityPackageName,"${pageName}Activity"), manifestOut.resolve("AndroidManifest.xml"))
     }
 
     if (needActivity && generateActivityLayout) {
-        save(templeXml(), resOut.resolve("layout/${activityLayoutName}.xml"))
+        save(templateXml(), resOut.resolve("layout/${activityLayoutName}.xml"))
     }
 
     if (needFragment && generateFragmentLayout) {
-        save(templeXml(), resOut.resolve("layout/${fragmentLayoutName}.xml"))
+        save(templateXml(), resOut.resolve("layout/${fragmentLayoutName}.xml"))
     }
 
 
