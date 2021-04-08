@@ -1,29 +1,23 @@
-# lianyiPlugins
-
+# MVPArmsTemplePlugin
+## 说明
 <!-- Plugin description -->
-mvparms专用插件,用于一键生成mvparms相关文件
+mvparms专用插件,用于一键生成mvparms相关文件，由于as4.1之后删除了templates，所以单独写了一份。思路复刻[MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate)，除了文件路径放到Other中了，其余基本一致。
 <!-- Plugin description end -->
 
 ## 下载
-[MVPArmsPlugin](https://gitee.com/nullity/lianyiPlugins/raw/master/plugins/lianyiPlugins-1.0.0.jar)
+[MVPArmsTemplePlugin](https://github.com/nifengxiao/MVPArmsTemplePlugin/raw/master/plugins/MVPArmsTemplePlugin-1.0.0.jar)
 
 ## 安装
 - 手动:
-
   下载完成后按照以下步骤进行安装
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
-
----
 ## 使用
-![](https://images.gitee.com/uploads/images/2021/0407/173415_c4da6160_1422537.png "使用.png")
+![](https://github.com/nifengxiao/MVPArmsTemplePlugin/blob/master/pic/mvparms%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.png)
 
-## 注意
-- 创建activity的时候要到manifest里面手动创建一下，暂时没有找到解决方案，如有找到办法的朋友请提交Issues,非常感谢！
+## 所用工具
+[intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template)
 
-## 需要修改功能
-   参考：
-
-Plugin based on the [IntelliJ Platform Plugin Template][template].
-
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
+## 参考
+- [MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate)
+- [AndroidStudio4.1 自定义模板](https://www.bigademo.com/2021/01/20/AndroidStudio%204.1%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1/index.html)
