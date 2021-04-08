@@ -5,7 +5,7 @@ mvparms专用插件,用于一键生成mvparms相关文件，由于as4.1之后删
 <!-- Plugin description end -->
 
 ## 下载
-[MVPArmsTemplePlugin](https://github.com/nifengxiao/MVPArmsTemplePlugin/raw/master/plugins/MVPArmsTemplePlugin-1.0.0.jar)
+[MVPArmsTemplatePlugin](https://github.com/nifengxiao/MVPArmsTemplePlugin/raw/master/plugins/MVPArmsTemplatePlugin-1.0.0.jar)
 
 ## 安装
 - 手动:
